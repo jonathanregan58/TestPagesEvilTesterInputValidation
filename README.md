@@ -91,3 +91,5 @@ Example:
 79
 
 19
+
+For compatibility testing, I used Microsoft Edge on my Laptop
