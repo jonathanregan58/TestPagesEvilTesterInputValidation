@@ -46,3 +46,48 @@ Notes:
 - Has no maximum value 
 
 - It has no limit in terms of maximum characters
+
+Using boundary value analysis, the valid input from each field is:
+
+First Name:
+Has minimum 5(or 3 where it will be submitted but the message "Firstname too short" will appear at the end page) characters; it can use non-alphabetic characters and/or space
+
+Example:
+
+Jonathan
+
+Jonathan Jonathan
+
+123
+
+12345
+
+12345.com
+
+Last Name:
+
+Has minimum 11 characters; it can use non-alphabetic characters and/or space
+
+Example:
+
+ABCDEFGHIJK
+
+ABCDEFGHIJK ABCDEFGHIJK
+
+12345678912
+
+12345678912 12345678912
+
+Age:
+
+It should be numerical where the minimum is 18 and the maximum is 80
+
+Example:
+
+18
+
+80
+
+79
+
+19
