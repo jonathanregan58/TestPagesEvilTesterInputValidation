@@ -23,7 +23,7 @@ Last Name:
 
 - Can be filled with numbers
 
-- The minimum character is 10
+- The minimum character is 11
 
 - It has no limit in terms of maximum characters
 
